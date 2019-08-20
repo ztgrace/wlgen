@@ -3,6 +3,13 @@
 OUTPUT="discovery.txt"
 SLWEB="../SecLists/Discovery/Web-Content/"
 
+if [ -z $1 ]; then
+    echo "Usage: $0 aspx"
+    exit
+fi
+
+EXT=$1
+
 declare -a lists=("quickhits.txt" 
                 "RobotsDisallowed-Top1000.txt"
                 "swagger.txt"
@@ -47,7 +54,6 @@ declare -a lists=("quickhits.txt"
                 "hpsmh.txt"
                 "hyperion.txt"
                 "Hyperion.fuzz.txt"
-                "JavaScript-Miners.txt"
                 "JavaServlets-Common.fuzz.txt"
                 "JRun.fuzz.txt"
 )
@@ -92,6 +98,15 @@ sed -i 's/\*$//g' $OUTPUT
 
 # Normalize lines by removing the leading /
 sed -i 's/^\///' $OUTPUT
+
+# Replace %EXT% with $EXT
+sed -i "s/%EXT%/$EXT/" $OUTPUT
+
+# remove ' -> ' from wordlist
+sed -i 's/ -> .*$//g' $OUTPUT
+
+# URL encode spaces
+sed -i 's/ /%20/g' $OUTPUT
 
 # unique files
 wc -l $OUTPUT
