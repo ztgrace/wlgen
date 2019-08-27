@@ -26,3 +26,11 @@ system/console/configMgr
 system/console/bundles
 content/usergenerated
 content/usergenerated/etc/commerce/smartlists
+
+# .NET
+elmah.axd
+elmah
+errorlog.axd
+
+# Sharepoint
+/_api/web/siteusers
