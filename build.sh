@@ -1,14 +1,13 @@
 #!/bin/bash
 
-OUTPUT="discovery.txt"
-SLWEB="../SecLists/Discovery/Web-Content/"
-
 if [ -z $1 ]; then
     echo "Usage: $0 aspx"
     exit
 fi
 
 EXT=$1
+OUTPUT="discovery.${EXT}.txt"
+SLWEB="../SecLists/Discovery/Web-Content/"
 
 declare -a lists=("quickhits.txt" 
                 "RobotsDisallowed-Top1000.txt"
@@ -56,6 +55,12 @@ declare -a lists=("quickhits.txt"
                 "Hyperion.fuzz.txt"
                 "JavaServlets-Common.fuzz.txt"
                 "JRun.fuzz.txt"
+                "common.txt"
+                "common-and-dutch.txt"
+                "common-and-french.txt"
+                "common-and-italian.txt"
+                "common-and-portugese.txt"
+                "common-and-spanish.txt"
 )
 
 echo "" > $OUTPUT
@@ -110,7 +115,8 @@ sed -i 's/ /%20/g' $OUTPUT
 
 # unique files
 wc -l $OUTPUT
-awk '!x[$0]++' $OUTPUT > tmp
+#awk '!x[$0]++' $OUTPUT > tmp
+sort -u $OUTPUT > tmp
 mv tmp $OUTPUT
 wc -l $OUTPUT
 
