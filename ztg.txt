@@ -216,3 +216,7 @@ phonefactor
 
 # WebLogic CVE-2014-4210
 uddiexplorer/SearchPublicRegistries.jsp
+
+# Exchange 
+ECP
+owa/auth/logon.aspx
