@@ -113,6 +113,15 @@ sed -i 's/ -> .*$//g' $OUTPUT
 # URL encode spaces
 sed -i 's/ /%20/g' $OUTPUT
 
+# Remove entries that are only querystrings
+sed -i '/^?.*$/d' $OUTPUT
+
+# Remove tilde entries
+sed -i '/^~.*$/d' $OUTPUT
+
+# convert to unix format
+dos2unix $OUTPUT
+
 # unique files
 wc -l $OUTPUT
 #awk '!x[$0]++' $OUTPUT > tmp
@@ -120,6 +129,4 @@ sort -u $OUTPUT > tmp
 mv tmp $OUTPUT
 wc -l $OUTPUT
 
-# convert to unix format
-dos2unix $OUTPUT
-sed -i 's/^\*//' $OUTPUT # No fucking clue why it works here and not above ¯\_(ツ)_/¯
+sed -i '/^\*/d' $OUTPUT # No fucking clue why it works here and not above ¯\_(ツ)_/¯

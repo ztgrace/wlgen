@@ -19,6 +19,8 @@ sitecore/admin/SetSACEndpoint.aspx
 sitecore/admin/LINQScratchpad.aspx
 sitecore/admin/Pipelines.aspx
 manifest.json
+admin
+config.yml
 
 # Adobe AEM/Apache Sling https://www.youtube.com/watch?v=EQNBQCQMouk
 bin/groovyconsole/post.servlet
@@ -102,6 +104,7 @@ api/batch
 .c99.php
 .env
 .git
+.git/config
 .secret
 .svn
 .wp-config.php.swp
@@ -114,8 +117,6 @@ WEB-INF/web.xml
 _admin
 _legacy
 activity
-actuator
-actuator/heapdump
 admin
 admin/heapdump
 adminer.sql
@@ -220,3 +221,83 @@ uddiexplorer/SearchPublicRegistries.jsp
 # Exchange 
 ECP
 owa/auth/logon.aspx
+
+# Hashicorp Vault
+.vault-token
+
+# web-based RDP
+RDWeb/
+
+# API endpoints
+autoconfig
+dump
+env
+health
+logs
+trace
+prometheus
+
+# CapitalOne Open Source
+Hygieia
+Hygieia/jenkins.html
+hygieia
+hygieia/jenkins.html
+giraffez
+Hydrograph
+hydrograph
+
+# Spring Boot Acutator
+actuator
+actuator/health
+actuator/info
+actuator/heapdump
+actuator/dump
+actuator/trace
+actuator/logfile
+actuator/mappings
+actuator/env
+jolokia/list
+env
+
+# Apache Mesos
+api/v1
+api/v1/executor
+api/v1/resource_provider
+api/v1/scheduler
+containerizer/debug
+containers
+create-volumes
+destroy-volumes
+files/browse
+files/debug
+files/download
+files/read
+flags
+frameworks
+health
+logging/toggle
+machine/down
+machine/up
+maintenance/schedule
+maintenance/status
+metrics/snapshot
+monitor/statistics
+profiler/start
+profiler/stop
+quota
+redirect
+registrar(id)/registry
+reserve
+roles
+slaves
+state
+state-summary
+system/stats.json
+tasks
+teardown
+unreserve
+version
+weights
+
+# WP User Enum
+wp-json/wp/v2/users/?per_page=100&page=1
