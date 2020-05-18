@@ -1,0 +1,107 @@
+general:
+  - seclists/Discovery/Web-Content/quickhits.txt 
+  - seclists/Discovery/Web-Content/RobotsDisallowed-Top1000.txt
+  - seclists/Discovery/Web-Content/AdobeXML.fuzz.txt
+  - seclists/Discovery/Web-Content/AdobeCQ-AEM.txt
+  - seclists/Discovery/Web-Content/swagger.txt
+  - seclists/Discovery/Web-Content/ApacheTomcat.fuzz.txt
+  - seclists/Discovery/Web-Content/tomcat.txt
+  - seclists/Discovery/Web-Content/Logins.fuzz.txt
+  - seclists/Discovery/Web-Content/nginx.txt
+  - seclists/Discovery/Web-Content/oracle.txt
+  - seclists/Discovery/Web-Content/Oracle9i.fuzz.txt
+  - seclists/Discovery/Web-Content/tests.txt
+  - seclists/Discovery/Web-Content/apache.txt
+  - seclists/Discovery/Web-Content/IIS.fuzz.txt
+  - seclists/Discovery/Web-Content/Jenkins-Hudson.txt
+  - seclists/Discovery/Web-Content/iplanet.txt
+  - seclists/Discovery/Web-Content/SuniPlanet.fuzz.txt
+  - seclists/Discovery/Web-Content/SunAppServerGlassfish.fuzz.txt
+  - seclists/Discovery/Web-Content/confluence-administration.txt
+  - seclists/Discovery/Web-Content/domino-dirs-coldfusion39.txt
+  - seclists/Discovery/Web-Content/Randomfiles.fuzz.txt
+  - seclists/Discovery/Web-Content/Web-Services/SOAP-functions.txt
+  - seclists/Discovery/Web-Content/FatwireCMS.fuzz.txt
+  - seclists/Discovery/Web-Content/burp-parameter-names.txt
+  - seclists/Discovery/Web-Content/KitchensinkDirectories.fuzz.txt
+  - seclists/Discovery/Web-Content/common-api-endpoints-mazen160.txt
+  - seclists/Discovery/Web-Content/domino-dirs-coldfusion39.txt
+  - seclists/Discovery/Web-Content/fnf-fuzz.txt
+  - seclists/Discovery/Web-Content/hpsmh.txt
+  - seclists/Discovery/Web-Content/hyperion.txt
+  - seclists/Discovery/Web-Content/Hyperion.fuzz.txt
+  - seclists/Discovery/Web-Content/JRun.fuzz.txt
+  - seclists/Discovery/Web-Content/common.txt
+  - seclists/Discovery/Web-Content/common-and-dutch.txt
+  - seclists/Discovery/Web-Content/common-and-french.txt
+  - seclists/Discovery/Web-Content/common-and-italian.txt
+  - seclists/Discovery/Web-Content/common-and-portuguese.txt
+  - seclists/Discovery/Web-Content/common-and-spanish.txt
+  - custom/nmap.txt
+  - custom/ztg.txt
+  - https://raw.githubusercontent.com/maurosoria/dirsearch/master/db/dicc.txt
+  - https://raw.githubusercontent.com/v0re/dirb/master/wordlists/common.txt
+  - https://raw.githubusercontent.com/v0re/dirb/master/wordlists/small.txt
+  - https://raw.githubusercontent.com/random-robbie/bruteforce-lists/master/config.txt
+  - https://raw.githubusercontent.com/random-robbie/bruteforce-lists/master/yaml.txt
+  - https://raw.githubusercontent.com/random-robbie/bruteforce-lists/master/env.txt
+  - https://raw.githubusercontent.com/random-robbie/bruteforce-lists/master/git_config.txt
+  - https://raw.githubusercontent.com/random-robbie/bruteforce-lists/master/htaccess
+  - https://raw.githubusercontent.com/random-robbie/bruteforce-lists/master/k8s.txt
+  - https://raw.githubusercontent.com/random-robbie/bruteforce-lists/master/keys.txt
+  - https://raw.githubusercontent.com/random-robbie/bruteforce-lists/master/properties-files.txt
+  - https://raw.githubusercontent.com/random-robbie/bruteforce-lists/master/sql.txt
+  - https://raw.githubusercontent.com/fuzzdb-project/fuzzdb/master/discovery/predictable-filepaths/webservers-appservers/SiteMinder.txt
+  - https://raw.githubusercontent.com/fuzzdb-project/fuzzdb/master/discovery/predictable-filepaths/webservers-appservers/LotusNotes.txt
+  - https://raw.githubusercontent.com/fuzzdb-project/fuzzdb/master/discovery/predictable-filepaths/webservers-appservers/Netware.txt
+  - https://raw.githubusercontent.com/fuzzdb-project/fuzzdb/master/discovery/predictable-filepaths/wellknown-rfc5785.txt
+  - https://raw.githubusercontent.com/fuzzdb-project/fuzzdb/master/discovery/predictable-filepaths/login-file-locations/Logins.txt
+  - https://raw.githubusercontent.com/fuzzdb-project/fuzzdb/master/discovery/predictable-filepaths/login-file-locations/html.txt
+  - https://raw.githubusercontent.com/fuzzdb-project/fuzzdb/master/discovery/predictable-filepaths/password-file-locations/Passwords.txt
+asp:
+  - seclists/Discovery/Web-Content/CommonBackdoors-ASP.fuzz.txt
+  - seclists/Discovery/Web-Content/frontpage.txt
+  - seclists/Discovery/Web-Content/Frontpage.fuzz.txt
+  - seclists/Discovery/Web-Content/CGI-Microsoft.fuzz.txt
+  - https://raw.githubusercontent.com/random-robbie/bruteforce-lists/master/webconfig.txt
+  - https://raw.githubusercontent.com/fuzzdb-project/fuzzdb/master/discovery/predictable-filepaths/backdoors/ASP_CommonBackdoors.txt
+  - https://raw.githubusercontent.com/fuzzdb-project/fuzzdb/master/discovery/predictable-filepaths/webservers-appservers/ADFS.txt
+  - https://raw.githubusercontent.com/fuzzdb-project/fuzzdb/master/discovery/predictable-filepaths/login-file-locations/windows-asp.txt
+  - https://raw.githubusercontent.com/fuzzdb-project/fuzzdb/master/discovery/predictable-filepaths/login-file-locations/windows-aspx.txt
+cfm:
+  - https://raw.githubusercontent.com/fuzzdb-project/fuzzdb/master/discovery/predictable-filepaths/login-file-locations/cfm.txt
+go:
+  - seclists/Discovery/Web-Content/golang.txt
+java:
+  - seclists/Discovery/Web-Content/JavaServlets-Common.fuzz.txt
+  - seclists/Discovery/Web-Content/jboss.txt
+  - seclists/Discovery/Web-Content/websphere.txt
+  - seclists/Discovery/Web-Content/weblogic.txt
+  - seclists/Discovery/Web-Content/JavaServlets-Common.fuzz.txt
+  - seclists/Discovery/Web-Content/axis.txt
+  - seclists/Discovery/Web-Content/spring-boot.txt
+  - seclists/Discovery/Web-Content/CommonBackdoors-JSP.fuzz.txt
+  - https://raw.githubusercontent.com/fuzzdb-project/fuzzdb/master/discovery/predictable-filepaths/webservers-appservers/JavaServlets_Common.txt
+  - https://raw.githubusercontent.com/fuzzdb-project/fuzzdb/master/discovery/predictable-filepaths/login-file-locations/jsp.txt
+cgi:
+  - https://raw.githubusercontent.com/random-robbie/bruteforce-lists/master/cgi-bin.txt
+  - https://raw.githubusercontent.com/random-robbie/bruteforce-lists/master/cgi-files.txt
+php:
+  - seclists/Discovery/Web-Content/Common-PHP-Filenames.txt
+  - https://raw.githubusercontent.com/random-robbie/bruteforce-lists/master/adminer.txt
+  - https://raw.githubusercontent.com/random-robbie/bruteforce-lists/master/phpmyadmin.txt
+  - https://raw.githubusercontent.com/random-robbie/bruteforce-lists/master/phpunit.txt
+  - https://raw.githubusercontent.com/random-robbie/bruteforce-lists/master/wp-content.txt
+  - https://raw.githubusercontent.com/random-robbie/bruteforce-lists/master/wordpress-random.txt
+  - https://raw.githubusercontent.com/fuzzdb-project/fuzzdb/master/discovery/predictable-filepaths/backdoors/bot_control_panels.txt
+  - https://raw.githubusercontent.com/hisxo/Wordlist/master/symfony.txt
+  - https://raw.githubusercontent.com/fuzzdb-project/fuzzdb/master/discovery/predictable-filepaths/backdoors/shells.txt
+  - https://raw.githubusercontent.com/fuzzdb-project/fuzzdb/master/discovery/predictable-filepaths/php/PHP_CommonBackdoors.txt
+  - https://raw.githubusercontent.com/fuzzdb-project/fuzzdb/master/discovery/predictable-filepaths/php/PHP.txt
+  - https://raw.githubusercontent.com/fuzzdb-project/fuzzdb/master/discovery/predictable-filepaths/login-file-locations/php.txt
+perl:
+  - https://raw.githubusercontent.com/random-robbie/bruteforce-lists/master/perl-files.txt
+ruby:
+  - seclists/Discovery/Web-Content/ror.txt
+test:
+  - /tmp/test.txt

@@ -21,6 +21,11 @@ sitecore/admin/Pipelines.aspx
 manifest.json
 admin
 config.yml
+webapp1
+config/aws.yml
+ofx
+rps
+soapserver
 
 # Adobe AEM/Apache Sling https://www.youtube.com/watch?v=EQNBQCQMouk
 bin/groovyconsole/post.servlet
