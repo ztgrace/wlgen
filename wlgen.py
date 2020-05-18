@@ -23,7 +23,7 @@ def main(args):
         for i in results:
             fout.write(f'{i}\n')
 
-    print(f'[+] Total wordlist lines:     {total_lines}')
+    print(f'[+] Total wordlist lines: {total_lines}')
     print(f'[+] Final wordlist lines: {len(results)}')
 
 def getLines(config, f):
@@ -113,7 +113,7 @@ def parse_lists(args) -> list:
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('-a', '--all', action='store_true', help='Compile all lists', default=False)
-    parser.add_argument('-c', '--config', type=str, default='config.yml', help='Config file to use')
+    #parser.add_argument('-c', '--config', type=str, default='config.yml', help='Config file to use')
     parser.add_argument('-l', '--langs', nargs='*', help='Language(s)')
     parser.add_argument('--lists', type=str, default="lists.yml", help='Lists yaml file')
     parser.add_argument('-o', '--output', type=str, default='discovery.txt', help='Config file to use')
@@ -126,7 +126,7 @@ if __name__ == '__main__':
         parser.error("-a or -l is required")
 
     args.seclists = os.path.expanduser(args.seclists)
-    args.config = os.path.expanduser(args.config)
+    #args.config = os.path.expanduser(args.config)
     args.lists = os.path.expanduser(args.lists)
 
     if args.all:
