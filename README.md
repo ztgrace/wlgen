@@ -4,10 +4,10 @@ Script to automate building wordlists for AppSec directory/resource bruting.
 
 ## Features
 
-* Lists managed via yaml file
-* Lists can be local or remote (URLsare automatically downloaded)
+* Lists are managed via yaml file
+* Lists can be local or remote (URLs are automatically downloaded)
 * Lists are uniqued and cleaned before output is written to a file
-* Lists can be grouped by language to target hone attacks against known platforms
+* Lists can be grouped by language to hone attacks against known platforms
 
 ## Usage
 
