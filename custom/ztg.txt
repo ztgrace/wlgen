@@ -1,5 +1,6 @@
 # Misc
 swagger.json
+swagger/index.html
 explore
 .s3cfg
 .fog
@@ -26,6 +27,12 @@ config/aws.yml
 ofx
 rps
 soapserver
+mgmt
+kie-drools-wb
+org.kie.workbench.drools.KIEDroolsWebapp
+j_security_check
+jboss-remoting-servlet-invoker
+ServerInvokerServlet
 
 # Adobe AEM/Apache Sling https://www.youtube.com/watch?v=EQNBQCQMouk
 bin/groovyconsole/post.servlet
