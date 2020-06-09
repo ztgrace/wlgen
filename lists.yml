@@ -39,6 +39,7 @@ general:
   - seclists/Discovery/Web-Content/common-and-spanish.txt
   - custom/nmap.txt
   - custom/ztg.txt
+  - custom/well-known.txt
   - https://raw.githubusercontent.com/maurosoria/dirsearch/master/db/dicc.txt
   - https://raw.githubusercontent.com/v0re/dirb/master/wordlists/common.txt
   - https://raw.githubusercontent.com/v0re/dirb/master/wordlists/small.txt
