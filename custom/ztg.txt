@@ -33,6 +33,12 @@ org.kie.workbench.drools.KIEDroolsWebapp
 j_security_check
 jboss-remoting-servlet-invoker
 ServerInvokerServlet
+bff
+proxy
+orchestra
+get-user
+register
+user/register
 
 # Adobe AEM/Apache Sling https://www.youtube.com/watch?v=EQNBQCQMouk
 bin/groovyconsole/post.servlet
