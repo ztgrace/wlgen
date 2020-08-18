@@ -319,3 +319,8 @@ weights
 
 # WP User Enum
 wp-json/wp/v2/users/?per_page=100&page=1
+
+# Grafana
+grafana
+-/grafana/
+-/debug/grafana
